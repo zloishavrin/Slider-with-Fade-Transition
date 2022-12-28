@@ -1,6 +1,6 @@
 //FADE TRANSITION SETTINGS
 let sliderFadeVelocity = 400; //in ms
-let sliderFadeType = 'out' //'in' or 'out' or 'in-out'
+let sliderFadeType = 'out'; //'in' or 'out' or 'in-out'
 
 function sliderTransition(toInactiveItem, toPrevItem, toActiveItem, toNextItem) {
 	
