@@ -1,0 +1,68 @@
+<head>
+
+	<title> Slider </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="slider.css">
+	<script type="text/javascript" src='slider.js'></script>
+
+</head>
+
+<body>
+
+	<div id='sliderPreview'>
+
+		<div id='sliderContain'>
+
+
+			<!-- container for previewing previous slide. if you are going to start slider from the first element, you should put last slider in this container -->
+			<div class='slide' id='prevSliderContain'>
+
+				<div id='sliderArrowLeft' onclick="slider('prev');"> </div>
+
+				<img src='5.jpg' id='sliderItem4' class='sliderItem'>
+
+			</div>
+
+			<!-- container for selected slide. if you are going to start slider from first element, you should put first slider in this container -->
+			<div class='slide' id='activeSliderContain'>
+
+				<img src='1.jpg' id='sliderItem0' class='sliderItem'>
+
+			</div>
+
+			<!-- container to preview next slide. if you are going to run slider from first item, you must place the second slider in this container -->
+			<div class='slide' id='nextSliderContain'>
+
+				<div id='sliderArrowRight' onclick="slider('next');"> </div>
+
+				<img src='2.jpg' id='sliderItem1' class='sliderItem'>
+
+			</div>
+
+			<!-- container for sliders that are inactive when the page loads -->
+			<div id='sliderInactiveContain'>
+
+				<img src='3.jpg' id='sliderItem2' class='sliderItem'>
+				<img src='4.jpg' id='sliderItem3' class='sliderItem'>
+
+			</div>
+
+
+			<!-- container for selectors. if you increase the number of sliders, you should also increase number of selectors (the default setting is 5). also if you are not going to start slider from the first element, you should set id='activeSelectors' for the corresponding selector and add the appropriate onclick. -->
+			<div id='sliderSelectorsContain'>
+
+				<div class='selectors' onclick='sliderSelector(0)' 
+				id='activeSelectors'> </div>
+				<div class='selectors' onclick='sliderSelector(1)'> </div>
+				<div class='selectors' onclick='sliderSelector(2)'> </div>
+				<div class='selectors' onclick='sliderSelector(3)'> </div>
+				<div class='selectors' onclick='sliderSelector(4)'> </div>
+
+			</div>
+
+		</div>
+
+	</div>
+	
+
+</body>
