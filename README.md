@@ -22,3 +22,5 @@ The slider is made in pure JS without jQuery or other frameworks.
 The slider is adaptive and all sizes in the css file are in relative values.
 
 Also, the slider is looped - after the last slide will be the first one.
+
+If necessary, you can remove the effect speed setting and specify it manually.
