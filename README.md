@@ -24,3 +24,6 @@ The slider is adaptive and all sizes in the css file are in relative values.
 Also, the slider is looped - after the last slide will be the first one.
 
 If necessary, you can remove the effect speed setting and specify it manually.
+
+View a preview of the slider [here](https://zloishavrin.github.io/Slider-with-Fade-Transition/slider.html).
+It's worth understanding that the slider is loaded with 4k images for previews. 
